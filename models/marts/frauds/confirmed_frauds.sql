@@ -1,3 +1,4 @@
+{{ config(group = 'fraud_risk', access='private') }}
 select
 *
 from {{ ref('int_transactions_enriched')}}
